@@ -1,51 +1,78 @@
 *{
-    margin: 0px;
+    margin:0px;
     padding : 0px;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+    /* border: 2px solid black; */
 }
 
 body{
     background-color: rgb(221 221 183);
 }
+
 section{
-    justify-content: center;
-    align-items: center;
-}
-.logo img{
-    /* border : 2px solid black; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position:fixed;
-    top: 10%;
-    left:44%;
-    width: 100px;
-    height: 45px;
-    
+
+    flex-direction: column;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 0px 0px;
+    /* padding: 4px;; */
+
+}
+
+.logo img {
+    height: 100px;
+    width:  100px;;
+}
 .container{
-    height: 310px;
-    width: 310px;
-    border: 2px solid black;
-    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    top: 20%;
-    left : 40%;
+    padding: 10px;
+    margin : 10px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    width: 300px;
+    border : 2px solid black;
     font-size: 20px;
     background-color: #50afb4;
     box-shadow: 5px 5px;
 }
 
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 1;
+    /* padding: 10px; */
+}
 
-.name-tag input {
-    width : 210px;
-    margin : 10px 0px;
-    border : 2px solid black;
+#sign-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-button button{
+    height: 35px;
+    width: 210px;
+    font-size: 20px;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    background-color: #50afb4;
 }
 
 #login-button button{
@@ -58,27 +85,9 @@ section{
     box-shadow: 2px 2px;
 }
 
-.text{
-    position: fixed;
-    top: 70%;
-    left : 44%;
-    
-    font-size: 20px;
-    font-style: italic;
-    opacity: 1;
-}
-
-#sign-up-button {
-    position: fixed;
-    top: 80%;
-    left :40%;
-}
-
-#sign-up-button button {
-    height: 35px;
-    width: 310px;
-    font-size: 20px;
-    box-shadow: 2px 2px;
-    cursor: pointer;
-    background-color: #50afb4;
+.name-tag input {
+    width : 210px;
+    margin : 10px 0px;
+    padding: 5px;
+    border : 2px solid black;
 }
