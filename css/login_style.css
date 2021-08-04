@@ -8,28 +8,34 @@
 body{
     background-color: rgb(221 221 183);
 }
-
-.logo {
-    border : 2px solid black;
+section{
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    /* border : 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
-    top: 90px;
-    left : 630px;
+    position:fixed;
+    top: 10%;
+    left:44%;
+    width: 100px;
+    height: 45px;
+    
 }
 
 .container{
-    height: 45vh;
-    width: 50vh;
+    height: 310px;
+    width: 310px;
     border: 2px solid black;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 140px;
-    left : 500px;
+    position:fixed;
+    top: 20%;
+    left : 40%;
     font-size: 20px;
     background-color: #50afb4;
     box-shadow: 5px 5px;
@@ -37,14 +43,14 @@ body{
 
 
 .name-tag input {
-    width : 35vh;
+    width : 210px;
     margin : 10px 0px;
     border : 2px solid black;
 }
 
 #login-button button{
-    height: 5vh;
-    width: 35vh;
+    height: 35px;
+    width: 210px;
     font-size: 20px;
     margin : 30px 0px 0px 0px;
     cursor: pointer;
@@ -53,23 +59,24 @@ body{
 }
 
 .text{
-    position: absolute;
-    top : 470px;
-    left : 600px;
+    position: fixed;
+    top: 70%;
+    left : 44%;
+    
     font-size: 20px;
     font-style: italic;
     opacity: 1;
 }
 
 #sign-up-button {
-    position: absolute;
-    top: 520px;
-    left : 550px;
+    position: fixed;
+    top: 80%;
+    left :40%;
 }
 
 #sign-up-button button {
-    height: 5vh;
-    width: 35vh;
+    height: 35px;
+    width: 310px;
     font-size: 20px;
     box-shadow: 2px 2px;
     cursor: pointer;
