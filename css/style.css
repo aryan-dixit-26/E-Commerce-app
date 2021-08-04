@@ -16,7 +16,11 @@ nav{
     position: sticky;
 
 }
-
+#logo-home-page img{
+    height: 45px;
+    width: 100px;
+    background-color: black;
+}
 nav ul {
     display: flex;
     background-color: black;
@@ -36,7 +40,21 @@ nav ul li{
     padding: 10px 20px;
     cursor: pointer;
 }
+/* login button  */
 
+
+#login-home button{
+    height: 30px;
+    width: 100px;
+    /* border-radius: 5px; */
+    background-color:#000000a1;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    /* box-shadow: 2px 2px; */
+    cursor: pointer;
+
+}
 /* categories */
 section{
     display: grid;
