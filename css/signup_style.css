@@ -1,49 +1,53 @@
 *{
-    margin: 0px;
+    margin:0px;
     padding : 0px;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+    /* border: 2px solid black; */
 }
 
 body{
     background-color: rgb(221 221 183);
 }
+
 section{
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.logo img{
-    /* border : 2px solid black; */
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    top: 10%;
-    left:44%;
-    width: 100px;
-    height: 45px;
-    
+    margin: 50px 10px 20px 0px;
 }
+
+.logo img {
+    height: 100px;
+    width:  100px;;
+}
+
 .container{
-    height: 500px;
-    width: 310px;
-    border: 2px solid black;
-    border-radius: 4px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    top: 20%;
-    left : 40%;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    width: 300px;
+    border : 2px solid black;
     font-size: 20px;
     background-color: #50afb4;
     box-shadow: 5px 5px;
+    padding: 10px;;
 }
-.name-tag input {
-    width : 210px;
-    margin : 10px 0px;
-    border : 2px solid black;
-}
+
 #signup-button button{
     height: 35px;
     width: 210px;
@@ -52,4 +56,12 @@ section{
     cursor: pointer;
     background-color: rgb(184 199 211);
     box-shadow: 2px 2px;
+    margin : 10px;
+}
+
+.name-tag input {
+    width : 210px;
+    margin : 10px 0px;
+    padding: 5px;
+    border : 2px solid black;
 }
