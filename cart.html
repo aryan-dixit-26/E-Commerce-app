@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cart_style.css">
+    <title>Cart</title>
+</head>
+<body>
+    <nav class="navbar" id="cart-nav">
+        <div class="logo" id="home-logo">
+            <img src="./assets/logo1.png" alt="">
+        </div>
+
+        <ul>
+            <li>Track Order</li>
+            <li>Gift Cards</li>
+            <li>Your Orders</li>
+            <li>Customer Services</li>
+            <li>Return</li>
+        </ul>
+
+    </nav>
+    <h1 class="heading">Your Orders</h1>
+    <section>
+        <div class="items" id="cart-items"></div>
+        <div class="payment" id="payment-gateway">
+            <p>Total Amount = 100000</p>
+            <button class="button" id="order-pay">Confirm</button>
+        </div>
+
+    </section>
+    <h1 class="heading">Recommended</h1>
+    <div class="recommendation" id="cart-recommendation"></div>
+    <footer class="masthead">
+        <ul>
+            <li>More About us</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>Copyright &#169 Noddy</li>
+        </ul>
+    </footer>
+    <script src="./js/cart_app.js"></script>
+    
+</body>
+</html>
