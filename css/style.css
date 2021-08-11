@@ -40,6 +40,16 @@ nav ul li{
     padding: 10px 20px;
     cursor: pointer;
 }
+nav ul li button{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 5px 10px; */
+    padding: 3px 3px;
+    cursor: pointer;
+}
 /* cart  */
 #cart-home-page img{
     height: 45px;
@@ -61,6 +71,16 @@ nav ul li{
     /* box-shadow: 2px 2px; */
     cursor: pointer;
 
+}
+.drop-down{
+    display: grid;
+    border:2px solid hotpink;
+    height : 360px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    background-color: white;
+    /* opacity: 0; */
 }
 /* categories */
 section{
@@ -163,4 +183,18 @@ h1{
         grid-gap: 10px;
         
     }
+}
+
+div.fadeOut{
+    opacity: 0;
+    pointer-events: none;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+div.fadeIn{
+    opacity: 1;
+    pointer-events: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
 }
