@@ -28,7 +28,6 @@ kidsButton.addEventListener("click", () => {
   setTimeout(() => {
     kidsDropDown.classList.toggle("fadeIn");
   }, 1000);
-    window.location = "login.html";
 });
 
 const payment = document.querySelector('#cart-home-page img');
