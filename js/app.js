@@ -34,3 +34,7 @@ const payment = document.querySelector('#cart-home-page img');
 payment.addEventListener("click", ()=> {
     window.location = "cart.html";
 });
+const services = document.querySelector('#masthead-services');
+services.addEventListener("click", ()=>{
+    window.location = "services.html";
+});
