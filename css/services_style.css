@@ -20,6 +20,7 @@ nav{
     height: 45px;
     width: 100px;
     background-color: black;
+    cursor: pointer;
 }
 nav ul {
     display: flex;
